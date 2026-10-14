@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a = int(input())
 b = int(input())
 result = a + b
@@ -27,3 +28,10 @@ while a is True:
         print("Вы совершенно правы, я не умею считать, прошу вас оставить подробный отзыв для улучшения моих вычислительных способностей!")
     else:
         a = True
+=======
+rand = int(input("Введите целое число: "))
+
+coef = 5
+result = rand ** coef
+print("Теперь это число:", str(result))
+>>>>>>> 74ab951 (Zero commite)

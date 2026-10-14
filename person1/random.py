@@ -12,7 +12,18 @@ elif a == 4:
     print(8)
 elif a == 5:
     print(10)
-elif a == 6:
-    print(12)
+elif a == 10:
+    print(20)
 else:
-    print("Не знаю")
+    print("Error: out of range")
+
+a = True
+while a is True:
+    check = input("Правильно ли я посчитал?\n")
+    a = False
+    if check == "Да":
+        print("Спасибо за обратную связь")
+    elif check == "Нет":
+        print("Вы совершенно правы, я не умею считать, прошу вас оставить подробный отзыв для улучшения моих вычислительных способностей!")
+    else:
+        a = True

@@ -21,9 +21,9 @@ a = True
 while a is True:
     check = input("Правильно ли я посчитал?\n")
     a = False
-    if check == "Да":
+    if check == "Да" or check == "+" or check == "1":
         print("Спасибо за обратную связь")
-    elif check == "Нет":
+    elif check == "Нет" or check == "Не" or check == "-" or check == "0":
         print("Вы совершенно правы, я не умею считать, прошу вас оставить подробный отзыв для улучшения моих вычислительных способностей!")
     else:
         a = True

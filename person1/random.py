@@ -12,8 +12,8 @@ elif a == 4:
     print(8)
 elif a == 5:
     print(10)
-elif a == 10:
-    print(20)
+elif a == 6:
+    print(12)
 else:
     print("Error: out of range")
 

@@ -1,5 +1,5 @@
 # tests/test_integration.py
-from person1.calc import add
+from calc import add
 
 
 def test_calc_chain():

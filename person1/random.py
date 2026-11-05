@@ -1,4 +1,4 @@
-rand = int(input("Введите целое число: "))
+rand = int(input("Treasure: "))
 
 coef = 76
 result = rand ** coef
